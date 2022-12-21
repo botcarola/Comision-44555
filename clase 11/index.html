@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>
+            Lista de clientes
+        </h1>
+        <button id="logout">
+            Cerrar sesión
+        </button>       
+    </nav>
+    <main>
+        <div class="container-login">
+            <h2>
+                Inicie sesión
+            </h2>
+            <form id="login">
+                <label>
+                    <input type="text" placeholder="Usuario" id="input-user">
+                </label>
+                <label>
+                    <input type="text" placeholder="Contraseña" id="input-pass">
+                </label>
+                <label>
+                    <input type="submit" value="Ingresar">
+                </label>
+                <p id="logint">
+                    El usuario o la contraseña son incorrectas.
+                </p>
+            </form>            
+        </div>
+        <div class="container-usuarios">
+            <table>              
+            </table>
+        </div>
+    </main>
+    
+    <script src="pokemon.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
