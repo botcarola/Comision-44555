@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="modo-claro">
+    <nav>
+        <button id="claro-oscuro">Modo oscuro</button>
+    </nav>
+    <main>
+        <div class="container-form">
+            <form id="form-card">
+                <label>
+                    <input type="text" placeholder="Nombre y apellido" id="input-nombre">
+                </label>
+                <label>
+                    <input type="number" placeholder="Número de tarjeta" id="input-ntarjeta">
+                </label>
+                <label>
+                    <input type="number" placeholder="Fecha de expiración" id="input-expiracion">
+                </label>
+                <label>
+                    <input type="number" placeholder="código de seguridad" id="input-codigo">
+                </label>
+                <label>
+                    <input type="submit" value="Enviar">
+                </label>
+            </form>
+        </div>
+        <div class="container-tarjeta">
+            <div class="card">
+                <h2 class="card-title">
+                    creditCard
+                </h2>
+                <h2 id="numero-card">
+                    #### #### #### ####
+                </h2>
+                <h2 id="nombre-card">
+                    Profe Coderhouse
+                </h2>
+                <div id="container-seguridad">
+                    <h3 id="expiracion-card">
+                        **/**
+                    </h3>
+                    <h3 id="codigo-card">
+                        ****
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
